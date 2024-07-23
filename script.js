@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Datos de las sedes vecinales (coordenadas ajustadas para Trelew)
     const sedes = [
-        {lat: -43.2498, lng: -65.3051, nombre: "Sede 1", direccion: "Calle 1, 123", presidente: "Juan Pérez"},
+        {lat: -43.244435893010035, lng: -65.28444801607691, nombre: "Planta de Gas", direccion: "Juana Azurduy 419", presidente: "Johana Diaz"},
         {lat: -43.2550, lng: -65.3100, nombre: "Sede 2", direccion: "Calle 2, 234", presidente: "María López"},
         // Añadir más sedes aquí
     ];
