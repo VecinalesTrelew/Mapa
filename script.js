@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {lat: -43.2579, lng: -65.3188, nombre: "Democracia", direccion: "Sin Sede", presidente: "José María Huayquilaf (Representación Provisional)", estado: "Inactivo", color: "#f44336"},
         {lat: -43.2773, lng: -65.3153, nombre: "Balcones del Valle", direccion: "Sin Sede", presidente: "Carlos Marquez (Representación Provisoria)", estado: "Inactivo", color: "#f44336"},
         {lat: -43.2679, lng: -65.3204, nombre: "Belgrano", direccion: "Sin Sede", presidente: "Gladys Norma Gonzales", estado: "Inactivo", color: "#f44336"},
-        {lat: -43.2516, lng: -65.3331, nombre: "Primera Junta", direccion: "Sin Sede", presidente: "Sin Presidente (Representación Provisional)", estado: "Inactivo", color: "#f44336"},
+        {lat: -43.2516, lng: -65.3331, nombre: "Primera Junta", direccion: "Sin Sede", presidente: "Sin Presidente", estado: "Inactivo", color: "#f44336"},
         {lat: -43.2702, lng: -65.2538, nombre: "Los Teros", direccion: "Sin Sede", presidente: "Fabián Debastiani y Paola Cambra (Representación Provisional)", estado: "Inactivo", color: "#f44336"},
         {lat: -43.2805, lng: -65.2992, nombre: "Los Tilos", direccion: "Sin Sede", presidente: "Sin Presidente", estado: "Inactivo", color: "#f44336"},
         {lat: -43.2564, lng: -65.2956, nombre: "Padre Juan", direccion: "Sin Sede", presidente: "Sin Presidente", estado: "Inactivo", color: "#f44336"},
