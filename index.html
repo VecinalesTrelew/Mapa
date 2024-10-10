@@ -11,6 +11,12 @@
 <body>
     <header>
         <img src="logo.png" alt="Logo Asociaciones Vecinales Trelew" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#mapa">Mapa</a></li>
+                <li><a href="#referentes">Referentes</a></li>
+            </ul>
+        </nav>
     </header>
     
     <main>
@@ -18,11 +24,17 @@
             <h1>Coordinación de Asociaciones Vecinales Trelew</h1>
         </section>
         
-        <section class="mapa">
+        <section id="mapa" class="mapa">
             <h2>Mapa de Asociaciones Vecinales</h2>
             <div id="map"></div>
         </section>
         
+        <section id="referentes" class="referentes">
+            <h2>Referentes por Barrio</h2>
+            <div class="barrios-container">
+                <!-- Los barrios y referentes se cargarán dinámicamente aquí -->
+            </div>
+        </section>
     </main>
 
     <footer>

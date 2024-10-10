@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Código existente para el mapa
     var map = L.map('map').setView([-43.2498, -65.3051], 13);
     
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -83,5 +84,75 @@ document.addEventListener('DOMContentLoaded', function() {
                 Presidente: ${sede.presidente}<br>
                 Estado: ${sede.estado}
             `);
+    });
+    const referentes = [
+        {
+            barrio: "San Martin",
+            personas: [
+                { nombre: "Luis Loyola", foto: "juan.jpg"}
+            ]
+        },
+        {
+            barrio: "Inta",
+            personas: [
+                { nombre: "Yasmin Ibarren", foto: "carlos.jpg" }
+            ]
+        },
+        {
+            barrio: "Moreira",
+            personas: [
+                { nombre: "Marcela Rechimon", foto: "carlos.jpg" }
+            ]
+        },
+        {
+            barrio: "Padre Juan",
+            personas: [
+                { nombre: "Ruben Saenz", foto: "carlos.jpg" }
+            ]
+        },
+        {
+            barrio: "Norte",
+            personas: [
+                { nombre: "Walter Sepulveda", foto: "carlos.jpg" }
+            ]
+        },
+        {
+            barrio: "Planta de Gas",
+            personas: [
+                { nombre: "Claudia Sandoval", foto: "carlos.jpg" }
+            ]
+        },
+            {
+            barrio: "Juan Manuel de Rosas",
+            personas: [
+                { nombre: "Irupe Centeno", foto: "carlos.jpg" }
+            ]
+        },
+        {
+            barrio: "Costanera",
+            personas: [
+                { nombre: "Micaela Pulgar", foto: "carlos.jpg" }
+            ]
+        },
+        // Añadir más barrios y referentes aquí
+    ];
+
+    const barriosContainer = document.querySelector('.barrios-container');
+
+    referentes.forEach(barrio => {
+        const barrioElement = document.createElement('div');
+        barrioElement.classList.add('barrio');
+        barrioElement.innerHTML = `
+            <h3>${barrio.barrio}</h3>
+            ${barrio.personas.map(persona => `
+                <div class="referente">
+                    <img src="${persona.foto}" alt="${persona.nombre}">
+                    <div class="referente-info">
+                        <p><strong>${persona.nombre}</strong></p>
+                    </div>
+                </div>
+            `).join('')}
+        `;
+        barriosContainer.appendChild(barrioElement);
     });
 });
