@@ -89,49 +89,49 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             barrio: "San Martin",
             personas: [
-                { nombre: "Luis Loyola", foto: "juan.jpg"}
+                { nombre: "Luis Loyola", foto: "icon-ref.jpg"}
             ]
         },
         {
             barrio: "Inta",
             personas: [
-                { nombre: "Yasmin Ibarren", foto: "carlos.jpg" }
+                { nombre: "Yasmin Ibarren", foto: "icon-ref.jpg" }
             ]
         },
         {
             barrio: "Moreira",
             personas: [
-                { nombre: "Marcela Rechimon", foto: "carlos.jpg" }
+                { nombre: "Marcela Rechimon", foto: "icon-ref.jpg" }
             ]
         },
         {
             barrio: "Padre Juan",
             personas: [
-                { nombre: "Ruben Saenz", foto: "carlos.jpg" }
+                { nombre: "Ruben Saenz", foto: "icon-ref.jpg" }
             ]
         },
         {
             barrio: "Norte",
             personas: [
-                { nombre: "Walter Sepulveda", foto: "carlos.jpg" }
+                { nombre: "Walter Sepulveda", foto: "icon-ref.jpg" }
             ]
         },
         {
             barrio: "Planta de Gas",
             personas: [
-                { nombre: "Claudia Sandoval", foto: "carlos.jpg" }
+                { nombre: "Claudia Sandoval", foto: "icon-ref.jpg" }
             ]
         },
             {
             barrio: "Juan Manuel de Rosas",
             personas: [
-                { nombre: "Irupe Centeno", foto: "carlos.jpg" }
+                { nombre: "Irupe Centeno", foto: "icon-ref.jpg" }
             ]
         },
         {
             barrio: "Costanera",
             personas: [
-                { nombre: "Micaela Pulgar", foto: "carlos.jpg" }
+                { nombre: "Micaela Pulgar", foto: "icon-ref.jpg" }
             ]
         },
         // Añadir más barrios y referentes aquí
